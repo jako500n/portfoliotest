@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
 
-const Experience = () => {
-  return <div>Experience</div>;
+const Portfolio = () => {
+  return <section id="portfolio">Portfolio</section>;
 };
 
-export default Experience;
+export default Portfolio;
