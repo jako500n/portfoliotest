@@ -139,11 +139,11 @@ a:hover {
   color: var(--clr-fullblue);
 }
 
-/* img {
+img {
   display: block;
   width: 100%;
   object-fit: cover;
-} */
+}
 
 /* MEDIA QUERY MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
