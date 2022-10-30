@@ -48,9 +48,12 @@
   --clr-beige: #f7dabb;
   --clr-beigelight: rgba(247, 218, 187, 0.6);
   --clr-champagne: #dfd5a5;
+  --clr-champagnelight: rgba(223, 213, 165, 0.6);
   --clr-camel: #cf995f;
   --clr-firered: #ee6352;
-  --clr-whiteish: #efe9f4;
+  --clr-whiteish: #e9ecf4;
+  --clr-whiteishlight: rgba(233, 236, 244, 0.6);
+  --clr-bg-variant: #141926;
 
   --transition: all 400ms ease;
 
@@ -111,7 +114,7 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--clr-beigelight);
+  color: var(--clr-champagnelight);
 }
 
 section > h2 {
@@ -120,11 +123,11 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--clr-beigelight);
+  color: var(--clr-champagnelight);
 }
 
 a {
-  color: var(--clr-champagne);
+  color: var(--clr-mediumblue);
   transition: var(--transition);
 }
 
